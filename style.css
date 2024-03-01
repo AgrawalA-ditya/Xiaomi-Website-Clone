@@ -1,0 +1,317 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #f7f7f7 !important;
+}
+
+.logo img {
+    display: inline-block;
+    width: 53px;
+    height: 44px;
+}
+
+.header {
+    /* position: sticky; */
+}
+
+.ul-1 {
+    display: flex;
+    flex: 2;
+    margin: 9px 0px;
+}
+
+.ul-2 {
+    display: flex;
+    margin: 9px 0px;
+}
+
+.ul-3 {
+    display: flex;
+    margin: 9px 18px;
+}
+
+.ul-3 a{
+    color: black;
+}
+
+.ul-1 a:hover,
+.ul-2 a:hover {
+    color: orange;
+}
+
+.items-1,
+.items-2 {
+    list-style: none;
+    margin: 5px 10px;
+}
+
+.items-1 a,
+.items-2 a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 0px !important;
+}
+
+.rightlogos {
+    list-style: none;
+    margin: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.shopping-product {
+    display: flex;
+}
+
+.shopping-products img {
+    margin: 5px;
+    height: 450px;
+    box-shadow: 1px 1px 2px rgb(120, 120, 120);
+}
+
+#upimg1 {
+    width: 48%;
+}
+
+#upimg2 {
+    width: 24%;
+}
+
+#upimg3 {
+    width: 24%;
+}
+
+.section-3 {
+    display: flex;
+}
+
+.section-3 h2,
+.section-3 h3 {
+    font-weight: bold;
+}
+
+.section-3-div1 {
+    flex: 1;
+    background-color: white;
+    margin: 21px 12px 0px 12px;
+    height: 58.2vh;
+    box-shadow: 1px 1px 5px rgb(120, 120, 120);
+    position: relative;
+    top: 0px;
+}
+
+.section-3-div2 {
+    flex: 1;
+    /* margin: 12px; */
+}
+
+
+.section-3-div1 h2 {
+    margin-top: 14vh;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.section-3-img-cont {
+    display: flex;
+    display: inline;
+    margin-left: 60px;
+    display: flex;
+}
+
+.section-3-img-cont img {
+    text-align: center;
+}
+
+.section-3-div2 h3,
+p {
+    padding-left: 10px;
+}
+
+.section-3-div2 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-1 img {
+    margin-left: 38px;
+}
+
+.img-1 {
+    margin: 0px 12px;
+}
+
+.img-1 p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section-3-div2-1 {
+    margin-bottom: 4px;
+    background-color: #fff;
+    height: 27.5vh;
+    box-shadow: 1px 1px 5px rgb(120, 120, 120);
+    text-align: center;
+}
+
+.section-3-div2-1 h3, .section-3-div2-2 h3{
+    padding-top: 60px;
+}
+
+.section-3-div2-2 {
+    margin-top: 0px;
+    background-color: #fff;
+    height: 27.8vh;
+    box-shadow: 1px 1px 5px rgb(120, 120, 120);
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #191919;
+    color: white;
+    margin-top: 30px;
+    padding: 32px 16px;
+}
+
+.footer li {
+    list-style: none;
+    color: #898989;
+    margin-bottom: 16px;
+}
+
+.footer li:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.footer>div {
+    flex: 2;
+    margin-top: 30px;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.icons a {
+    font-size: 27px;
+    color: #667785;
+    color: #d0d0d0;
+    margin: 10px 17px 12px 0px;
+}
+
+.icons a:hover {
+    color: white;
+}
+
+#last-div-1 {
+    margin-left: 12px;
+}
+
+#last-div-5 {
+    flex: 3;
+    /* text-align: center; */
+}
+
+#last-div-5-h5 {
+    margin: 20px 0px;
+}
+
+#last-div-5 input {
+    width: 95%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+#scanner-box {
+    display: flex;
+}
+
+#scanner-box img {
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+    margin: 10px 5px 0px 0px;
+}
+
+#last-box {
+    margin: 25px 0px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    width: 95%;
+}
+
+#play-box {
+    display: flex;
+}
+
+#play-box a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#play-box img {
+    height: 7%;
+    width: 7%;
+    margin-left: 20%;
+    margin-bottom: 12px;
+}
+
+#footer-base-line {
+    background-color: #191919;
+    color: white;
+    display: flex;
+
+}
+
+#play-box a{
+    color: white;
+    margin-left: 10px;
+}
+
+#sidemap:hover {
+    text-decoration: underline;
+}
+
+.site-footer__locale {
+    position: absolute;
+    right: 10px;
+}
+
+#india-india {
+    color: white;
+    position: relative;
+    bottom: 8px;
+    right: 7px;
+}
+
+#world-logo{
+    color: white;
+    position: relative;
+}
+
+#footer-base-line{
+    padding: 30px 0px;
+}
+
+.carousel-container img{
+    cursor: pointer;
+}
